@@ -13,7 +13,8 @@ float populacao;
 float area;
 float pib;
 int pontos_turisticos;
-
+float pibPerCapita;
+float densidadePopulacional;
  
 
 printf("Digite Sua Cidade: \n");
@@ -39,6 +40,26 @@ printf("População: %f\n" , populacao);
 printf("Área: %f \n" , area);
 printf("Pib: %f \n" , pib);
 printf("Pontos Turisticos: %d \n" , pontos_turisticos);
+
+
+// Calculo da densidade populacional
+densidadePopulacional = populacao / area;
+
+// Calculo do PIB per capita
+pibPerCapita = pib / populacao;
+
+// Exibiçao dos resultados
+
+
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
+
+
+
+
+
+
+
 
 
 printf("\n Cidade 2\n");
@@ -68,6 +89,24 @@ printf("População: %f\n" , populacao);
 printf("Área: %f\n" , area);
 printf("Pib: %f\n" , pib);
 printf("Pontos Turistícos: %d\n" , pontos_turisticos);
+
+
+// Calculo da densidade populacional
+densidadePopulacional = populacao / area;
+
+// Calculo do PIB per capita
+pibPerCapita = pib / populacao;
+
+// Exibiçao dos resultados
+
+
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
+
+
+
+
+
 
 
 
@@ -102,6 +141,24 @@ printf("Pontos Turisticos: %d\n" , pontos_turisticos);
 
 
 
+// Calculo da densidade populacional
+densidadePopulacional = populacao / area;
+
+// Calculo do PIB per capita
+pibPerCapita = pib / populacao;
+
+// Exibiçao dos resultados
+
+
+
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
+
+
+
+
+
+
 
 
 printf("Cidade 4\n");
@@ -132,6 +189,21 @@ printf("População: %f\n" , populacao);
 printf("Área: %f\n" , area);
 printf("Pib: %f\n" , pib);
 printf("Pontos Turisticos: %d\n" , pontos_turisticos);
+
+
+
+// Calculo da densidade populacional
+densidadePopulacional = populacao / area;
+
+// Calculo do PIB per capita
+pibPerCapita = pib / populacao;
+
+// Exibiçao dos resultados
+
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
+
+
 
 
 
