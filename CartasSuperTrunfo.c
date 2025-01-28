@@ -51,7 +51,7 @@ pibPerCapita = pib / populacao;
 // Exibiçao dos resultados
 
 
-printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , densidadePopulacional);
 printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
 
 
@@ -100,7 +100,7 @@ pibPerCapita = pib / populacao;
 // Exibiçao dos resultados
 
 
-printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , densidadePopulacional);
 printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
 
 
@@ -151,7 +151,7 @@ pibPerCapita = pib / populacao;
 
 
 
-printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , densidadePopulacional);
 printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
 
 
@@ -200,7 +200,7 @@ pibPerCapita = pib / populacao;
 
 // Exibiçao dos resultados
 
-printf("\nDensidade Populacional: %.2f habitantes por km²\n" , pibPerCapita);
+printf("\nDensidade Populacional: %.2f habitantes por km²\n" , densidadePopulacional);
 printf("PIB per Capita: R$ %.2f\n" , pibPerCapita);
 
 
